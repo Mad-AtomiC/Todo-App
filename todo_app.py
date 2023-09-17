@@ -4,6 +4,7 @@ from tkinter import messagebox
 
 # Function to add a task to the list
 
+#def add_task(event=NONE):
 
 def add_task():
     task = task_entry.get()
@@ -56,6 +57,7 @@ remove_button.place(x=30, y=455)
 task_entry = customtkinter.CTkEntry(todo, font=(
     'Inter', 16, 'normal'), text_color='#000000', fg_color='#D9EBD7', border_color='#D9EBD7', width=293, height=40)
 task_entry.place(x=30, y=396)
+#task_entry.bind('<Return>', command=add_task)
 
 # listbox
 Frame1 = customtkinter.CTkFrame(
