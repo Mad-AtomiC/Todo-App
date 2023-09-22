@@ -65,7 +65,7 @@ Frame1 = customtkinter.CTkFrame(
     todo, width=390, height=236, fg_color='#FFFFFF', bg_color='#1E1F21')
 Frame1.place(x=30, y=130)
 
-task_list = Listbox(Frame1, font=('Inter', 16, 'normal'), width=31, height=9, bg='#1E1F21',
+task_list = Listbox(Frame1, font=('Inter', 16, 'normal'), width=28, height=9, bg='#1E1F21',
                     fg='#FFFFFF', highlightthickness=0, borderwidth=0, selectbackground='#244554', activestyle='none')
 task_list.pack(side=LEFT, fill=BOTH)
 
