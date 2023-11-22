@@ -34,7 +34,7 @@ todo.config(bg='#1E1F21')
 todo.resizable(False, False)
 
 # setting app icon
-icon_path = "Todo-App/image/todo.ico"
+icon_path = "image/todo.ico"
 todo.iconbitmap(icon_path)
 
 # labels
